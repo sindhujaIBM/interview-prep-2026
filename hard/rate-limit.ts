@@ -1,6 +1,7 @@
 /**
  * Implement a rate limiter that allows a maximum of 5 hits per 10 seconds for each user.
  * The function should return true if the hit is allowed and false if it exceeds the limit.
+ * HINT: Use a sliding window approach to efficiently track hits for each user.
  */
 const ALLOWED_SIZE = 10 * 1000;
 const ALLOWED_HITS = 5;
